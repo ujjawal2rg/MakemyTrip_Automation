@@ -49,6 +49,7 @@ class Test_FlightSearch(BaseClass):
         fd=self.driver.find_element_by_xpath("//a[contains(text(),'Search')]").click()
 
         print("Test Case passed Flight Search page open !")
+        print("HTML Report is also generated !")
 
         time.sleep(3)
         self.driver.save_screenshot("C:\Screenshot\MakemyTrip.png")
